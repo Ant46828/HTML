@@ -1,0 +1,34 @@
+
+h2{
+    text-decoration: underline;
+}
+
+.input {
+    border: none;
+    width: 30px;
+}
+
+#navigation {
+    position: absolute;
+    left: 25%;
+    text-align: center;
+}
+
+#tablesectionOne, #tablesectionTwo, #tablesectionThree, #tablesectionFour {
+    table-layout: fixed;
+    text-align: center;
+    background-color: #FFFFCC;
+    position: absolute;
+    top: 7em;
+}
+
+.caption {
+    background-color: rgb(255, 185, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+th,td {
+    border: 1px solid #D0D0D0;
+    empty-cells: show;
+}
