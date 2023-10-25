@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ax2bxc</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script type="text/javascript">
+        a=prompt('Nhap a')
+        b=prompt('Nhap b')
+        c=prompt('Nhap c')
+        if (a==0) {
+            if (b==0) {
+                if (c==0) {
+                    document.write('Phuong trinh co vo so nghiem')
+                }
+                else {
+                    document.write('Phuong trinh vo nghiem')
+                }
+            }
+            else {
+                x=-b/c
+                document.write('Phuong trinh co nghiem:' +x)
+            }
+        } 
+        else {
+            Delta=b*b-4*a*c
+            if (Delta<0) {
+                document.write('Phuong trinh vo nghiem')
+            }
+            else {
+                if (Delta==0) {
+                    x=-b/2*a
+                    document.write('Phuong trinh co nghiem kep: x1=x2=' +x)
+                }
+                else {
+                    if(Delta>0) {
+                        x1=(-b+Math.sqrt(Delta))/2*a
+                        x2=(-b-Math.sqrt(Delta))/2*a
+                        document.write('Phuong trinh co 2 nghiem phan biet:'+'<br>')
+                        document.write(+x1 +'<br>')
+                        document.write(+x2)
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
