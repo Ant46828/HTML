@@ -1,0 +1,47 @@
+.container{
+	width: 100%;
+	display: block;
+}
+.aligh-center{
+	width: 50%;
+	margin: 0px auto;
+	display: block;
+}
+.header{
+	width: 100%;
+	margin-top: 15px;
+	display: block;
+}
+.header .logo{
+	margin: 15px;
+	display: flex;
+}
+.header .logo p{
+	width: 10%;
+	background-color: red;
+	text-align: center;
+	font-weight: bold;
+    color: white;
+}
+.header .logo h3{
+	width: 100%;
+    text-align: center;
+}
+.menu {
+    width: auto;
+    padding: 0%;
+    margin: 0%;
+    background-color: #1f4cf3;
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 30%;
+}
+.menu ul li {
+    padding: 10px;
+    text-align: center;
+    border-right: solid 1px white;
+    color: white;
+    cursor: pointer;
+}

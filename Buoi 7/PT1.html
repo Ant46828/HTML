@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Giai phuong trinh bac 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+    <style type="text/css">
+        h3{
+            background-color: rgb(87, 87, 190);
+            color: white;
+            padding: 20px;
+        }
+
+        .func{
+            background-color: rgb(52, 180, 52);
+            color: white;
+            border-radius: 5px;
+            border: none;
+            height: 30px;
+            width: 100px;
+        }
+    </style>
+<body>
+    <h3>Giải phương trình bậc 1</h3>
+    <button class="func" onclick="click_1()">Nhap gia tri A</button>
+    <button class="func" onclick="click_2()">Nhap gia tri B</button>
+    <button class="func" onclick="click_3()">In ket qua</button>
+    <script type="text/javascript">
+        var a, b
+        function click_1() {
+            a=prompt('Nhap gia tri a')
+        }
+        function click_2() {
+            b=prompt('Nhap gia tri b')
+        }
+        function click_3() {
+            sum=parseInt(a) + parseInt(b)
+            document.write('Tong a va b la:' +sum)
+        }
+    </script>
+</body>
+</html>
