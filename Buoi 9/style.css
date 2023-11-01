@@ -1,0 +1,39 @@
+.panel  {
+    margin: 0px auto;
+    background-color: rgb(193, 249, 230);
+    width: 600px;
+}
+.panel .panel-heading {
+    background-color: aqua;
+    color: darkblue;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+legend {
+    color: darkblue;
+    font-weight: bold;
+}
+.panel .panel-footer {
+    text-align: center;
+    padding: 10px;
+}
+.panel .panel-footer button {
+    cursor: pointer;
+}
+.creditnum {
+    width: 80px;
+}
+table {
+    width: 100%;
+}
+table td {
+    font-weight: bold;
+    width: 80px;
+}
+table td input, table td textarea, table td select {
+    width: 200px;
+}
+input:focus, textarea:focus, select:focus {
+	background-color: yellow;
+}

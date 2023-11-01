@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Purchase Order Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+<div class="panel">
+    <div class="panel-heading">
+        Puschase Order Form
+    </div>
+    <div class="panel-body">
+        <fieldset>
+            <legend>Product Information</legend>
+            <table border="1" >
+                <tr>
+                    <td>Product</td>
+                    <td>
+                    <select>
+                        <option>Select</option>
+                        <option value="650">Comfort Sleeper</option>
+                        <option value="975">Morgan Kids Bed</option>
+                        <option value="480">Entertainment Cabinet</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Unit Price ($):</td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Quantity:</td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total Price ($):</td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <table border="1">
+                <legend>Shipping Information</legend>
+                <tr>
+                    <td>Full Name:</td>
+                    <td>
+                    <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Shipping Address</td>
+                    <td>
+                        <textarea rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Credit Card</td>
+                    <td><select>
+                        <option>Select</option>
+                        <option value="650">Visa</option>
+                        <option value="975">Master Card</option>
+                        <option value="480">American Express</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Credit Card number</td>
+                    <td>
+                    <input type="text" class="creditnum">
+                    <input type="text" class="creditnum">
+                    <input type="text" class="creditnum">
+                    <input type="text" class="creditnum">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+
+    </div>
+    <div class="panel-footer">
+        <button>Submit</button>
+        <button>Reset</button>
+    </div>
+</div>
+
+</body>
+</html>

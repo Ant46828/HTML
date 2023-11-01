@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form tutorial</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+<div id="main">
+	<form action="status.html" method="get">
+		<h2>Compose e-mail message.</h2>
+		<div class="group">
+			<label>To: </label>
+			<input required type="email" name="to" class="EmailEditor">
+		</div>
+		<div class="group">
+			<label>From: </label>
+			<input required type="email" name="from" class="EmailEditor">
+		</div>
+		<div class="group">
+			<label>Cc: </label>
+			<input required type="email" name="cc" class="EmailEditor">
+		</div>
+		<div class="group">
+			<label>Subject: </label>
+			<input required type="text" name="sbuject" class="EmailEditor" pattern="[a-zA-Z0-9 ]{6,200}">
+			<!-- [a-z]*: sinh ra >= 0 ky tu -->
+			<!-- +: sinh ra >= 1 -->
+			<!-- ?: sinh ra 0 | 1 -->
+		</div>
+		<div class="group">
+			<label>Message: </label>
+			<textarea rows="5" class="EmailEditor"></textarea>
+		</div>
+		<div class="group">
+			<label> </label>
+			<button type="submit">Send</button>
+			<button type="reset">Cancel</button>
+		</div>
+	</form>
+</div>
+</body>
+</html>
